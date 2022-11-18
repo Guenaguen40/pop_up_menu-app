@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">popup</string>
+    <string name="game_is_on">Game is on</string>
+    <string name="refresh">refresh</string>
+    <string name="menu">Menu</string>
+    <string name="account">account</string>
+</resources>

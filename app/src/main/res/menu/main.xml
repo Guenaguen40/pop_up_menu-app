@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- action button for search -->
+
+
+    <!-- action button for refresh -->
+    <item android:title="@string/refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh"/>
+
+    <!-- action button for copy -->
+    <item android:title="@string/menu"
+        android:id="@+id/copy"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/account"/>
+    <item android:title="@string/menu"
+        android:id="@+id/copy2"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/account"/>
+    <item android:title="@string/menu"
+        android:id="@+id/copy3"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/account"/>
+
+    <item android:title="@string/account"
+        android:id="@+id/account"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/account"/>
+</menu>
